@@ -1,0 +1,575 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    background-color: #202020;
+}
+
+h1,h3{
+    
+    font-family: "Century Gothic",sans-serif;
+}
+
+p{
+    
+    font-family: "Sarala",sans-serif;
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      padding: 10px 0px;
+/*      border-bottom: 1px solid #262626 !important;*/
+      background-color: #202020 !important;
+        background-blend-mode: multiply;
+        border-bottom-color: #111;
+        box-shadow: 5px 10px 28px #111;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+/*        border: 1px solid red;*/
+      background-color: #202020;
+      padding-top: 25px;
+        padding-bottom: 15px;
+        color: #ccc;
+        letter-spacing: 6px;
+        font-size: 10px;
+        line-height: 10px;
+/*        text-transform: uppercase;*/
+/*        margin-top: 35px !important;*/
+        
+    }
+
+
+
+.navbar-nav{
+    
+/*    border: 1px solid red;*/
+    margin-right: 60px;
+    margin-top: 8px;
+    
+}
+
+.navbar-nav li{
+    
+/*    border: 1px solid blue;*/
+/*    margin-left: 5px;*/
+}
+
+.navbar-nav li a{
+    
+/*    border: 1px solid yellow;*/
+    font-family: "Questrial",sans-serif;
+    letter-spacing: 2px;
+/*    background-color: #00d646 !important;*/
+    color: white!important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+
+/*    font-weight: 600;*/
+}
+
+.navbar-nav li > a:hover{
+    
+    color: #333!important;
+    background-color: whitesmoke!important;
+    
+/*    border-bottom: 5px solid #00d646;*/
+}
+
+/*
+.active{
+    
+    color: #ccc !important;
+    border-bottom: 5px solid whitesmoke;
+
+}
+*/
+
+.navbar-brand{
+    
+    font-family: "oswald",sans-serif;
+    border-left: 5px solid #ccc;
+    margin-left: 20px !important;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    color: #ccc !important;
+    
+    
+/*    color: ;*/
+}
+
+
+.circle {
+    
+    
+  height: 30px;
+  width: 30px;
+  background-color: #15c182;
+  border-radius: 50%;
+  margin-top: -15px;
+/*  border: 1px solid red;*/
+    margin-left: 620px;
+/*    opacity: 0.2;*/
+    
+}
+
+.wkbg{
+    
+    opacity: 0.1;
+    
+}
+
+.wkbg p{
+    color: #4a4a4a !important;
+    font-size: 280px;
+}
+
+
+.jumbotron{
+    
+/*    border: 1px solid yellow;*/
+    padding: 200px 0px !important;
+    background-color: #202020 !important;
+    background-image: url("marchisio2.jpg");
+/*    background-color: darkred !important;*/
+/*    background-blend-mode: luminosity;*/
+    background-position: 65%; 
+    background-size: auto;
+    background-repeat: no-repeat;
+/*    transform: skewY(-10deg),skewY(10deg);*/
+/*    transform: skewY(10deg);*/
+    
+}
+
+
+.container{
+    
+/*    border: 1px solid purple;*/
+}
+
+
+
+.jumbotron h1{
+    
+    font-family: "century gothic",sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    color: #ddd;
+    font-size: 85px !important;
+    
+    
+}
+
+.jumbotron p{
+    
+    font-family: "oswald",sans-serif;
+    color: #ccc;
+    
+}
+
+hr{
+    
+    width: 190px;
+    position: absolute;
+    right: 64%;
+    height: 1px;
+}
+
+.footer{
+    
+}
+
+.herosec{
+    
+/*    background-color: #333;*/
+/*    transform: skewX(-20deg);*/
+/*    border: 1px solid red;*/
+}
+
+.portfoliosec{
+/*    border: 1px solid red;*/
+    
+    background-color: white;
+    margin-top: -50px;
+/*    padding-top: 80px;*/
+/*    padding-bottom: 100px;*/
+    
+/*
+    background-image: url(Korba-backgroud.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+*/
+    
+    
+}
+
+
+.portfoliohead{
+    
+    color: #333;
+    font-family: "century gothic",sans-serif;
+    font-display: swap;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 80px;
+    opacity: 1;
+/*    text-shadow: 3px 3px 28px #0c0e13;*/
+    
+}
+
+
+.rowbg{
+    
+    background-color: white;
+/*    border: 1px solid #333;*/
+    margin: 0px 80px !important;
+    padding: 0px 0px !important;
+    padding-bottom: 20px !important;
+}
+
+
+.portfoliosubhead{
+    
+    color: #333;
+    font-family: "sarala",sans-serif;
+    font-size: 15px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.portfolioBorder{
+/*    border: 1px solid #ccc;*/
+    padding: 0px 0px !important
+}
+
+.white-box img{
+/*    border: 1px solid #333;*/
+/*    margin-top: 10px;*/
+}
+
+
+.white-box{
+    
+/*    padding: 15px 15px;*/
+    margin: 0px 0px !important;
+/*    padding: 0px 0px !important;*/
+    border: 1px solid #333;
+}
+
+.white-box h3{
+    
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.white-box p{
+    
+    color: #333;
+}
+
+
+
+
+/*******************************
+*******************************
+
+ABOUT PAGE STYLING
+
+******************************
+*******************************/
+
+.abouthead{
+    
+    font-family: "century gothic",sans-serif;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 8px;
+    font-weight: bolder;
+    font-size: 50px !important;
+    color: #ddd;
+    z-index: 2;
+}
+
+.p1{
+    
+    color: white;
+    font-family: "sarala",sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.grid-image{
+    
+    
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.aboutsec{
+    
+    background-image: url(marchisio2.jpg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    margin-bottom: 80px;
+/*    box-shadow: 5px 10px 28px #111;*/
+    margin-top: 40px;
+    
+    
+/*    opacity: 0.5;*/
+}
+
+.head2{
+    text-align: center;
+    position: absolute;
+    left: 3.5%;
+    top: 5.5%;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 60px;
+    z-index: -1;
+    color: #444444;
+    opacity: 0.2;
+    
+    
+}
+
+
+/*******************************
+*******************************
+
+CONTACT PAGE STYLING
+
+******************************
+*******************************/
+
+.contacthead{
+    
+    font-family: "century gothic",sans-serif;
+    color: #ddd;
+    letter-spacing: 8px;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.contact-form{
+    
+    background-color: #232323;
+/*    border: 1px solid;*/
+    box-shadow: 5px 10px 18px #111;
+    margin-bottom: 70px;
+}
+
+.contact-form-fields{
+    
+/*    border: 1px solid red;*/
+    padding: 40px 40px;
+}
+
+input[type="text"],textarea{
+    
+    font-family: "Questrial",sans-serif;
+    background-color: ghostwhite;
+    border-radius: 0px !important;
+}
+
+.submit-btn{
+    
+    text-align: center;
+}
+
+.btn{
+    
+    background-color: yellow;
+    color: #333;
+    border-radius: 30px;
+    padding: 8px 30px;
+    font-family: "century gothic",sans-serif;
+    transition: 0.3s all ease;
+    
+}
+
+.btn:hover{
+    
+    text-decoration: none;
+    background-color: darkgoldenrod;
+    color: #333;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.vl{
+    
+    border-left: 6px solid #ddd;
+    height: 504px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 50;
+}
+
+.contact-info{
+    
+/*    border: 1px solid red;*/
+    padding: 40px 40px;
+    color: #ccc;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+
+/*******************************
+*******************************
+
+EXPERIENCE PAGE STYLING
+
+******************************
+*******************************/
+
+.bgexp{
+     background-image: url("slider-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-blend-mode: luminosity;
+    margin-top: -80px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.experiencehead{
+    
+    font-family: "century gothic",sans-serif;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 48px;
+    letter-spacing: 8px;
+    margin-top: 80px;
+    font-weight: bold;
+    
+}
+
+.experienceSec{
+    
+/*    border: 1px solid red;*/
+    margin-top: 10px;
+    box-shadow: 5px 10px 28px #111;
+    background-color: #ababab;
+    
+}
+
+table{
+    
+    margin-top: 20px;
+    border: none !important;
+}
+
+td{
+    
+/*    border: 1px solid yellow;*/
+    border: none !important;
+    color: #333;
+    width: 150px;
+    padding: 20px 80px !important;
+}
+
+td h2{
+    
+    font-family: "Questrial",sans-serif;
+
+}
+
+.vlexperience{
+    
+    border-left: 6px solid #202020;
+    height: 669px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 50;
+}
+
+/*******************************
+*******************************
+
+PROFESSIONAL PAGE STYLING
+
+******************************
+*******************************/
+
+.skillhead{
+    
+    font-family: "century gothic",sans-serif;
+    font-weight: bold;
+    color: #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.panelBody{
+    background-color: transparent;
+    color: #ccc;
+    border: none !important;
+    padding: 10px 180px;
+    margin: 30px auto;
+    margin-bottom: 150px;
+    
+}
+
+.panelBody h1{
+    color: #ddd;
+}
+
+.bg{
+    background-image: url("slider-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #111111;
+    background-blend-mode: luminosity;
+}
+
+.progress-bar{
+    height: 60px;
+    background-color:firebrick;
+
+}
+
+.progress{
+
+    
+    border-radius: 25px;
+/*    border: 1px solid yellow;*/
+
+}
+
+
+
+
